@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Exo 2", sans-serif;
+    background-color: #F5E7E0;
+    color: #140F0B;
+}
+
+.conteiner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    padding-top: 100px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    width: 500px;
+    font-size: 48px;
+    font-weight: 200;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.popular__desc {
+    text-align: right;
+}
+
+.cards {
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.card__icons {
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+.card__img {
+    width: 250px;
+    height: 350px;
+    margin-bottom: -7px;
+}
+
+.card__title {
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+
+.ajax_addFav {
+    position: absolute;
+    bottom: 320px;
+    right: 15px;
+}
+
+.card__basket {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    background-color: #140f0b00;
+    border: none;
+}
+
+.card__fav {
+    position: absolute;
+    bottom: 320px;
+    right: 15px;
+    background-color: #140f0b00;
+    border: none;
+}
+
+.fav__btn {
+    background-color: #140f0b00;
+    border: none;
+}
+
+.card__icons img {
+    cursor: pointer;
+}
+
+select {
+    padding: 5px 60px 5px 5px;
+    background-color: #F5E7E0;
+}
+
+.active {
+    color: #306A57;
+}
+
+.countZero {
+    padding-top: 10px;
+    opacity: 50%;
+}
+
+.card__basket {
+    padding: 2px 5px;
+    background-color: rgba(240, 255, 255, 0.748);
+    border-radius: 3px;
+}
+
+img[src='/image/free-icon-tick-3106690.png'] {
+    padding: 5px 8px;
+}
+
+img[src='/image/inFav.png'],
+img[src='/image/productFav.png'] {
+    padding: 5px 8px 3px;
+    background-color: rgba(240, 255, 255, 0.748);
+    border-radius: 3px;
+}
+
+img[src='/image/inFav.png'] {
+    background-color: rgba(240, 255, 255, 0.596);
+}
+
+@media(max-width:1024px) {
+    main {
+        width: 1024px;
+    }
+}
+
+@media(max-width:800px) {
+    main {
+        width: 755px;
+        margin: 0;
+    }
+}
+
+@media(max-width:480px) {
+    main {
+        width: 400px;
+        margin: 0;
+    }
+}
+
+@media(max-width:360px) {
+    main {
+        width: 340px;
+    }
+}

@@ -1,0 +1,103 @@
+.politic h2,
+.politic h1,
+.deliveryInfo h1,
+.accordion {
+    font-size: 48px;
+    font-weight: 200;
+    padding-bottom: 45px;
+    text-transform: uppercase;
+}
+
+.politic h2,
+.accordion {
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.politic p,
+.panel p {
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 200px 0px 0px 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@media(max-width:1024px) {
+
+    .politic,
+    .deliveryInfo {
+        width: 800px;
+        margin-left: 30px;
+    }
+
+    main {
+        width: 1000px;
+        padding: 125px 0px 0px 0px;
+    }
+}
+
+@media(max-width:800px) {
+
+    .politic,
+    .deliveryInfo {
+        width: 600px;
+    }
+
+    main {
+        width: 600px;
+        margin-left: 20px;
+        padding-top: 50px;
+    }
+}
+
+@media(max-width:480px) {
+
+    .politic,
+    .deliveryInfo {
+        width: 380px;
+    }
+
+    main {
+        width: 350px;
+        padding-top: 0px;
+    }
+
+    .politic h1,
+    .deliveryInfo h1 {
+        font-size: 30px;
+        margin-top: 75px;
+    }
+
+    .politic h2,
+    .accordion {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:480px) {
+
+    .politic,
+    .deliveryInfo {
+        width: 280px;
+        margin-left: 10px;
+    }
+
+    main {
+        width: 300px;
+        padding-top: 0px;
+    }
+
+    .politic h1,
+    .deliveryInfo h1 {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .politic h2,
+    .accordion {
+        font-size: 20px;
+    }
+}

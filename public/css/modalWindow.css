@@ -1,0 +1,64 @@
+.modal-wrapper,
+.modal-wrapper-address {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(89, 89, 89, 0.489);
+    z-index: 10;
+}
+
+.modal {
+    position: relative;
+    width: 35%;
+    padding: 40px;
+    margin: 50px auto 50px;
+    background-color: #F5E7E0;
+    border-radius: 5px;
+}
+
+.closed,
+.closedAddress {
+    margin-left: 100%;
+    margin-top: -10px;
+}
+
+.closed:hover {
+    cursor: pointer;
+}
+
+.modal__title {
+    font-weight: 300;
+}
+
+.modal__desc {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.modal__entrance {
+    margin-top: 15px;
+    padding: 7px 30px;
+    background-color: #140F0B;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    letter-spacing: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__entrance a {
+    color: #F5E7E0;
+}
+
+@media(max-width: 800px) {
+    .modal {
+        width: 80%;
+    }
+}

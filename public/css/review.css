@@ -1,0 +1,163 @@
+.reviews {
+    display: flex;
+    gap: 20%;
+}
+
+.textReview {
+    padding: 10px;
+    width: 390px;
+    margin-top: 50px;
+    background-color: #F5E7E0;
+}
+
+.reviews__btn {
+    width: 390px;
+    margin-top: 25px;
+    padding: 15px 50px;
+    text-align: center;
+    background-image: none;
+    letter-spacing: 0;
+    color: #F5E7E0;
+    background-color: #140F0B;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.review__name {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.review__date {
+    margin-bottom: 25px;
+    font-size: 12px;
+    opacity: 50%;
+}
+
+.reviews__review {
+    width: 600px;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.moderation {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(182, 255, 231);
+}
+
+.info {
+    width: 390px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@media(max-width:1024px) {
+
+    main {
+        width: 900px;
+        margin-left: 30px;
+    }
+
+    .reviews {
+        gap: 6%;
+    }
+
+    .reviews__review {
+        width: 525px;
+    }
+}
+
+@media(max-width:800px) {
+
+    main {
+        width: 700px;
+    }
+
+    .reviews {
+        flex-direction: column;
+        gap: 65px;
+    }
+
+    .reviews__left {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: flex-end;
+    }
+}
+
+@media(max-width:480px) {
+
+    main {
+        width: 380px;
+    }
+
+    .reviews {
+        flex-direction: column;
+        gap: 65px;
+
+    }
+
+    .reviews__review {
+        width: 425px;
+    }
+
+    .reviews__left {
+        flex-direction: column;
+        gap: 0px;
+        align-items: baseline;
+    }
+
+    .title {
+        width: 430px;
+        font-size: 30px;
+        margin-top: -17px;
+    }
+}
+
+@media(max-width:360px) {
+
+    main {
+        width: 280px;
+    }
+
+    .reviews {
+        gap: 40px;
+    }
+
+    .reviews__review {
+        width: 285px;
+    }
+
+    .reviews__left {
+        flex-direction: column;
+        gap: 0px;
+        align-items: baseline;
+    }
+
+    .title {
+        width: 300px;
+    }
+
+    .info {
+        width: 287px;
+    }
+
+    .textReview {
+        width: 284px;
+        height: 115px;
+        margin-top: 30px;
+    }
+
+    .reviews__btn {
+        width: 289px;
+        margin-top: 15px;
+        padding: 9px 19px;
+        border-radius: 35px;
+    }
+}
